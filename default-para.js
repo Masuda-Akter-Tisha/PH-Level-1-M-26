@@ -29,6 +29,10 @@ function multiply (num1, num2 = 1) {
 
 multiply (10, 30);
 
+function call (name = 'guest') {
+    console.log (`hello ${name}!`);
+}
+call ();
 
 /*
 string ---> ''
