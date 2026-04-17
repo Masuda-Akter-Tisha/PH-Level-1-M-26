@@ -22,3 +22,9 @@ function div (name, price, description, model) {
     console.log (div);
 }
 div ('Iphone',50000,'This is a very authentic mobile phone of apple company',999);
+
+function friend (name) {
+    return `hello ${name}`;
+}
+
+console.log (`${friend ('Arian')}`);
