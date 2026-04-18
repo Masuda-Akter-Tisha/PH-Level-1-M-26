@@ -40,7 +40,7 @@ console.log(result);
 
 // document.getElementById ().addEventListener ('click', function () {});
 
-// document.getElementById ().addEventListener ('click', (event) => {});
+document.getElementById ().addEventListener ('click', (event) => {});
 
 // default parameter + Arrow function
 
