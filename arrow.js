@@ -38,3 +38,14 @@ const doMath = (x, y) => {
 const result = doMath (30, 50);
 console.log(result);
 
+// document.getElementById ().addEventListener ('click', function () {});
+
+// document.getElementById ().addEventListener ('click', (event) => {});
+
+// default parameter + Arrow function
+
+const price = (banana , orange = 0) => banana * 2 + orange;
+
+console.log(price (200));
+
+
