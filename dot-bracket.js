@@ -17,3 +17,6 @@ console.log(name);
 
 const cultivate = employee['cultivate-crops'];
 console.log(cultivate);
+
+employee['is-hardWorking'] = true;
+console.log(employee);
